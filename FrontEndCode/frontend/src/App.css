@@ -1,0 +1,41 @@
+.App {
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+ 
+}
+
+.Layout {
+  display: grid;
+  grid-template-rows: "max-content";
+  grid-gap: 20px;
+}
+
+.list-item {
+  display: grid;
+  grid-area: span;
+  grid-auto-flow: row;
+  grid-row-gap: 20px;
+  
+  /* grid-template-rows: 1fr auto auto; */
+}
+
+.list-item svg{
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.color-of-list {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.name{
+  font-size: 1.0rem;
+}
